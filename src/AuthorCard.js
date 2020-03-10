@@ -1,6 +1,6 @@
 import React from "react";
 
-const AuthorCard = props => {
+function AuthorCard(props){
   const author = props.author;
   const authorName = `${author.first_name} ${author.last_name}`;
   return (
